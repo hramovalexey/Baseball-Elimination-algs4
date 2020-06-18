@@ -25,7 +25,7 @@ Montreal      77 82  3  1 2 0 0
         In in = new In(filename);
         String[] stringArray = in.readAllLines();
         scheduleMap = new HashMap<>();
-
+ 
         // teams number
         int n = Integer.parseInt(stringArray[0]);
         for (int i = 1; i < stringArray.length; i++) {
